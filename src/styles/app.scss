@@ -1,0 +1,42 @@
+@import "./song";
+@import "./player";
+@import "./library";
+@import "./nav";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none !important;
+  scrollbar-color: #0a043c transparent;
+  scrollbar-width: thin;
+}
+*::selection {
+  color: #fafafa;
+  background: #0a043c;
+}
+*::-webkit-scrollbar {
+  width: 5px;
+}
+*::-webkit-scrollbar-thumb {
+  background: #0a043c;
+}
+body {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: #0a043c;
+}
+.App {
+  transition: all 0.5s ease;
+}
+.library-active {
+  margin-left: 25rem;
+}
